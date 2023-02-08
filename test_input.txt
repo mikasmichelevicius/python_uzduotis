@@ -1,0 +1,4 @@
+database | table | column | type   | title
+DB2                       |        | Database name
+         | TBL3           |        | Table name
+         |       | COL10  | string | Column 10

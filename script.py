@@ -80,6 +80,10 @@ def parse_input(lines):
 
 def output_table(table_entries):
 
+    if not table_entries:
+        print("database|table|column|type|title")
+        return
+
     title_max = max_length(table_entries, "title")
 
     db_list = filter(lambda entry: isinstance(entry, Database), table_entries)
