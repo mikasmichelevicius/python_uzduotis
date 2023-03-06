@@ -5,6 +5,8 @@ class Node:
     name: str
     title: str
 
+# Added line for testing
+
 class Database(Node):
     pass
 
